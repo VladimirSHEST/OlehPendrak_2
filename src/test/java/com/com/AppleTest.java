@@ -10,7 +10,7 @@ public class AppleTest extends BaseTest {   // наследуемся
     public void checkHref(){
         MainPage mainPage = new MainPage(BASE_URL);
         mainPage.search(SEARCH_STRING);
-        int a;
+        int c;
     }
 
 }
