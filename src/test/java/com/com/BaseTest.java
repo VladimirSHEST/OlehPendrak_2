@@ -18,7 +18,7 @@ abstract public class BaseTest {  // основа для всех тестовы
 
     }
 
-    @AfterEach // метод после начала теста
+    @AfterEach // метод после теста
     public void tearDown() {
         Selenide.closeWebDriver();
     }
